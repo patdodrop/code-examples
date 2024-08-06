@@ -44,7 +44,7 @@
                 $lhandle = fopen($resultFile, 'a+');
                 // Open files for writing
                 if (!$lhandle) {
-                    mail('erc_selectechalerts@peoplestrategy.com', 'Data Export Can Not Open File', 'Data Export Can Not Open File');                           
+                    mail('email_address@gmail.com', 'Data Export Can Not Open File', 'Data Export Can Not Open File');                           
                     echo "\n\nCannot open file ( " . $resultFile . " )\n\n";
                 }
 
