@@ -138,7 +138,7 @@
           
             $mailItem = new Email();
             $mailItem->subject = $mailSubject;
-            $mailItem->to = 'erc_selectechalerts@peoplestrategy.com';
+            $mailItem->to = 'support@gmail.com';
             $mailItem->mime->setTXTBody( $mailBody );
             $mailItem->addAttachment( $resultFile, 'application/vnd.ms-excel' );
             $mailItem->sendEmail();
